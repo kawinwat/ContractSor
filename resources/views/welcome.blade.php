@@ -33,16 +33,16 @@
         </svg>
       </div>
       <ul class="c-sidebar-nav">
-        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="index.html">
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('index.html')}}">
             <svg class="c-sidebar-nav-icon">
               <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
             </svg> Dashboard<span class="badge badge-info">NEW</span></a></li>
         <li class="c-sidebar-nav-title">Theme</li>
-        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('colors.html')}}">
             <svg class="c-sidebar-nav-icon">
               <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop1"></use>
             </svg> Colors</a></li>
-        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="typography.html">
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('typography.html')}}">
             <svg class="c-sidebar-nav-icon">
               <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
             </svg> Typography</a></li>
@@ -52,20 +52,20 @@
               <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
             </svg> Base</a>
           <ul class="c-sidebar-nav-dropdown-items">
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/breadcrumb.html"> Breadcrumb</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/cards.html"> Cards</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/carousel.html"> Carousel</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/collapse.html"> Collapse</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/jumbotron.html"> Jumbotron</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/list-group.html"> List group</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/navs.html"> Navs</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/pagination.html"> Pagination</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/popovers.html"> Popovers</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/progress.html"> Progress</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/scrollspy.html"> Scrollspy</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/switches.html"> Switches</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/tabs.html"> Tabs</a></li>
-            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/tooltips.html"> Tooltips</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/breadcrumb.html')}}"> Breadcrumb</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/cards.html')}}"> Cards</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/carousel.html')}}"> Carousel</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/collapse.html')}}"> Collapse</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/jumbotron.html')}}"> Jumbotron</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/list-group.html')}}"> List group</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/navs.html')}}"> Navs</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/pagination.html')}}"> Pagination</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/popovers.html')}}"> Popovers</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/progress.html')}}"> Progress</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/scrollspy.html')}}"> Scrollspy</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/switches.html')}}"> Switches</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/tabs.html')}}"> Tabs</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{asset('base/tooltips.html')}}"> Tooltips</a></li>
           </ul>
         </li>
         <li class="c-sidebar-nav-dropdown"><a class="c-sidebar-nav-dropdown-toggle" href="#">
@@ -282,7 +282,7 @@
         <div class="tab-pane active" id="timeline" role="tabpanel">
           <div class="list-group list-group-accent">
             <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase c-small">Today</div>
-            <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
+            <div class="list-group-item list-group-item-accent-warning list-group-item-divider">{{asset('assets/img/avatars/7.jpg')}}
               <div class="c-avatar float-right"><img class="c-avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"></div>
               <div>Meeting with <strong>Lucas</strong></div><small class="text-muted mr-3">
                 <svg class="c-icon">
