@@ -16,3 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/templete', function () {
+    return view('layouts.templete');
+});
+
+
+Route::get('/index', function () {
+    return view('Dashboard');
+});
+
+Route::get('/index-tor', function () {
+    return view('tor.index');
+});
+
+Route::get('/index-contract', function () {
+    return view('tor.index');
+});
